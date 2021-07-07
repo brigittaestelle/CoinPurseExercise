@@ -1,0 +1,30 @@
+.coin {
+  border-radius: 50%;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.Penny {
+  background: pink;
+  height: 75px;
+  width: 75px;
+}
+.Nickle {
+  background: green;
+  height: 80px;
+  width: 80px;
+}
+.Dime {
+  background: blue;
+  height: 50px;
+  width: 50px;
+}
+.Quarter {
+  background: orange;
+  height: 100px;
+  width: 100px;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>All By Myself</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Balance: <span>0</span></h1>
+    <form>
+      <div>
+        <label>How many?</label>
+        <!--required min of 1 for this input precludes chooosing negative or zero-->
+        <input type="number" required min="1" name="coinQuantity" />
+      </div>
+
+      <div>
+        <label>Which coin?</label>
+
+        <select name="coinName">
+          <option value="1">Penny</option>
+          <option value="5">Nickle</option>
+          <option value="10">Dime</option>
+          <option value="25">Quarter</option>
+        </select>
+      </div>
+      <!--Can use buttone for Make Money, but using an input with type submit and value make money will also work-->
+      <input type="submit" value="Make Money!" />
+    </form>
+    <section>
+      <!--<div class="coin"></div>-->
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
